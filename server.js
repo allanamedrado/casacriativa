@@ -4,44 +4,6 @@ const server = express()
 
 const db = require("./db")
 
-
-
-//const ideas = [
- //   {
- //       img: "https://image.flaticon.com/icons/svg/2729/2729007.svg",
-  //      title: "Cursos de Programação",
-   //     category: "Estudo",
- //       description: "lorem",
- //       url: "https://rocketseat.com.br"
- //   },
-
- //   {
- //       img: "https://image.flaticon.com/icons/svg/2729/2729027.svg",
-  //      title: "Meditação",
-  //      category: "Saúde",
-  //      description: "lorem",
-  //      url: "https://rocketseat.com.br"
- //   },
-
-  //  {
-  //      img: "https://image.flaticon.com/icons/svg/2729/2729038.svg",
-  //      title: "Pintura",
-  //      category: "Arte",
-  //      description: "lorem",
-  //      url: "https://rocketseat.com.br"
-  //  },
-
-   // {
-  //      img: "https://image.flaticon.com/icons/svg/2729/2729032.svg",
-  //      title: "Karaokê",
-  //      category: "Diversão",
-  //      description: "lorem",
-  //      url: "https://rocketseat.com.br"
-   // },
-//]
-
-
-
 //configurar arq estáticos
 server.use(express.static("public"))
 
